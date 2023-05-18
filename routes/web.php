@@ -14,9 +14,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('indice');
 });
 
-Route::get('/inicio', function () {
-    return view('inicio');
+Route::get('/crearCom', function () {
+    return view('crearCom');
+});
+
+Route::get('/busqueda', function () {
+    return view('busqueda');
+});
+
+Route::get('/perfil', function () {
+    return view('comunidad');
 });

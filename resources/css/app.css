@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Crear un contenedor para el contenido */
+  .principal {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Establecer un margen y un ancho para el texto */
+  .texto {
+    margin-left: 20%;
+    width: 40%;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Establecer estilos para el botón */
+  .boton {
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
